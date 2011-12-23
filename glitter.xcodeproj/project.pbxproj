@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF50953D14A4CA1E00950D5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF50953C14A4CA1E00950D5B /* UIKit.framework */; };
+		FF50953F14A4CA1E00950D5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF50953E14A4CA1E00950D5B /* Foundation.framework */; };
+		FF50954114A4CA1E00950D5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF50954014A4CA1E00950D5B /* CoreGraphics.framework */; };
+		FF50954714A4CA1E00950D5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF50954514A4CA1E00950D5B /* InfoPlist.strings */; };
+		FF50954914A4CA1E00950D5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50954814A4CA1E00950D5B /* main.m */; };
+		FF50954D14A4CA1E00950D5B /* IRGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50954C14A4CA1E00950D5B /* IRGLAppDelegate.m */; };
+		FF50955A14A4CAF200950D5B /* IRGLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50955914A4CAF200950D5B /* IRGLWebViewController.m */; };
+		FF5095AB14A4DA2600950D5B /* IRGLDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5095AA14A4DA2600950D5B /* IRGLDefines.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF50953814A4CA1E00950D5B /* glitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF50953C14A4CA1E00950D5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF50953E14A4CA1E00950D5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF50954014A4CA1E00950D5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF50954414A4CA1E00950D5B /* glitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "glitter-Info.plist"; sourceTree = "<group>"; };
+		FF50954614A4CA1E00950D5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF50954814A4CA1E00950D5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF50954A14A4CA1E00950D5B /* glitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "glitter-Prefix.pch"; sourceTree = "<group>"; };
+		FF50954B14A4CA1E00950D5B /* IRGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRGLAppDelegate.h; path = glitter/IRGLAppDelegate.h; sourceTree = "<group>"; };
+		FF50954C14A4CA1E00950D5B /* IRGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IRGLAppDelegate.m; path = glitter/IRGLAppDelegate.m; sourceTree = "<group>"; };
+		FF50955814A4CAF200950D5B /* IRGLWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRGLWebViewController.h; sourceTree = "<group>"; };
+		FF50955914A4CAF200950D5B /* IRGLWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRGLWebViewController.m; sourceTree = "<group>"; };
+		FF50956114A4CCDD00950D5B /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = glitter/Resources; sourceTree = "<group>"; };
+		FF5095A914A4DA2600950D5B /* IRGLDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRGLDefines.h; sourceTree = "<group>"; };
+		FF5095AA14A4DA2600950D5B /* IRGLDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRGLDefines.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF50953514A4CA1E00950D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF50953D14A4CA1E00950D5B /* UIKit.framework in Frameworks */,
+				FF50953F14A4CA1E00950D5B /* Foundation.framework in Frameworks */,
+				FF50954114A4CA1E00950D5B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF50952D14A4CA1E00950D5B = {
+			isa = PBXGroup;
+			children = (
+				FF5095A914A4DA2600950D5B /* IRGLDefines.h */,
+				FF5095AA14A4DA2600950D5B /* IRGLDefines.m */,
+				FF50954B14A4CA1E00950D5B /* IRGLAppDelegate.h */,
+				FF50954C14A4CA1E00950D5B /* IRGLAppDelegate.m */,
+				FF50955814A4CAF200950D5B /* IRGLWebViewController.h */,
+				FF50955914A4CAF200950D5B /* IRGLWebViewController.m */,
+				FF50954314A4CA1E00950D5B /* Supporting Files */,
+				FF50953B14A4CA1E00950D5B /* Frameworks */,
+				FF50956114A4CCDD00950D5B /* Resources */,
+				FF50953914A4CA1E00950D5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF50953914A4CA1E00950D5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF50953814A4CA1E00950D5B /* glitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF50953B14A4CA1E00950D5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF50953C14A4CA1E00950D5B /* UIKit.framework */,
+				FF50953E14A4CA1E00950D5B /* Foundation.framework */,
+				FF50954014A4CA1E00950D5B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF50954314A4CA1E00950D5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF50954414A4CA1E00950D5B /* glitter-Info.plist */,
+				FF50954514A4CA1E00950D5B /* InfoPlist.strings */,
+				FF50954814A4CA1E00950D5B /* main.m */,
+				FF50954A14A4CA1E00950D5B /* glitter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = glitter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF50953714A4CA1E00950D5B /* glitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF50955014A4CA1E00950D5B /* Build configuration list for PBXNativeTarget "glitter" */;
+			buildPhases = (
+				FF50953414A4CA1E00950D5B /* Sources */,
+				FF50953514A4CA1E00950D5B /* Frameworks */,
+				FF50953614A4CA1E00950D5B /* Resources */,
+				FF50956414A4CD2900950D5B /* Copy All Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glitter;
+			productName = glitter;
+			productReference = FF50953814A4CA1E00950D5B /* glitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF50952F14A4CA1E00950D5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IRGL;
+				ORGANIZATIONNAME = "Iridia Productions";
+			};
+			buildConfigurationList = FF50953214A4CA1E00950D5B /* Build configuration list for PBXProject "glitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF50952D14A4CA1E00950D5B;
+			productRefGroup = FF50953914A4CA1E00950D5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF50953714A4CA1E00950D5B /* glitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF50953614A4CA1E00950D5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF50954714A4CA1E00950D5B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF50956414A4CD2900950D5B /* Copy All Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy All Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -r $SRCROOT/glitter/Resources/* \"$CONFIGURATION_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF50953414A4CA1E00950D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF50954914A4CA1E00950D5B /* main.m in Sources */,
+				FF50954D14A4CA1E00950D5B /* IRGLAppDelegate.m in Sources */,
+				FF50955A14A4CAF200950D5B /* IRGLWebViewController.m in Sources */,
+				FF5095AB14A4DA2600950D5B /* IRGLDefines.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF50954514A4CA1E00950D5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF50954614A4CA1E00950D5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF50954E14A4CA1E00950D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF50954F14A4CA1E00950D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF50955114A4CA1E00950D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glitter/glitter-Prefix.pch";
+				INFOPLIST_FILE = "glitter/glitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF50955214A4CA1E00950D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glitter/glitter-Prefix.pch";
+				INFOPLIST_FILE = "glitter/glitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF50953214A4CA1E00950D5B /* Build configuration list for PBXProject "glitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF50954E14A4CA1E00950D5B /* Debug */,
+				FF50954F14A4CA1E00950D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF50955014A4CA1E00950D5B /* Build configuration list for PBXNativeTarget "glitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF50955114A4CA1E00950D5B /* Debug */,
+				FF50955214A4CA1E00950D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF50952F14A4CA1E00950D5B /* Project object */;
+}
